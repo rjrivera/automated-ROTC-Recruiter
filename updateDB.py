@@ -50,6 +50,6 @@ with open('myTestDB.csv', 'rb') as csvfile:
         print ','.join(row)
     
 with open('myTestDB.csv', 'a') as csvfile:
-    spamwriter = csv.writer(csvfile, delimiter=',', quotechar=':', quoting=csv.QUOTE_MINIMAL)
+    spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
 
     spamwriter.writerow([fileCandidateInfo[0]] + [fileCandidateInfo[1]] + [fileCandidateInfo[2]] + [fileCandidateInfo[3]])
