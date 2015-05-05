@@ -1,4 +1,4 @@
-import csv, glob, os, StringIO
+import csv, glob, os
 
 
 # updateDB.py reads outstanding emails, scans for AFROTC requests, and updates the live database, while clearing the directory afterwards.
@@ -6,15 +6,6 @@ import csv, glob, os, StringIO
 path = "/home/rjrivera/mail/new"
 print "Current path directory %s" % path
 
-fileGradYear = "NULL"
-fileCollege = "NULL"
-fileFirstName = "NULL"
-fileLastName = "NULL"
-fileEMail = "NULL"
-fileState = "NA"
-fileMajor = "NULL"
-filePhone = "NULL"
-fileCurrentLine = "NULL"
 fileCandidateInfo = ["0","0","0","0","0","0"]
 
 os.chdir(path)
@@ -30,15 +21,35 @@ for file in glob.glob("*.cleverGirl"):
             for line in fp:
                 print("currently at this line: " + line)
                 if 'College:' in line:
+                    sizeOfLine = len(line)
+                    line = line[8:sizeOfLine]
+                    print(line)
+                    line = line.strip()
+                    print(line)
                     fileCandidateInfo[2] = line
                     print("candidate wants - " + line)
+                    
                 if 'Last Name:' in line:        
+                    sizeOfLine = len(line)
+                    line = line[10:sizeOfLine]
+                    print(line)
+                    line = line.strip()
+                    print(line)
                     fileCandidateInfo[0] = line 
                     print("candidate last name - " + fileCandidateInfo[0])
                 if 'First Name:' in line:
+                    sizeOfLine = len(line)
+                    line = line[11:sizeOfLine]
+                    print(line)
+                    line = line.strip()
                     fileCandidateInfo[1] = line
                     print("candidate first name - " + fileCandidateInfo[1])
                 if 'Email Address:' in line:
+                    sizeOfLine = len(line)
+                    line = line[14:sizeOfLine]
+                    print(line)
+                    line = line.strip()
+                    print(line)
                     fileCandidateInfo[3] = line
                     print("candidate EMAIL - " + fileCandidateInfo[3])
         break
