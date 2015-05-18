@@ -55,7 +55,7 @@ for file in glob.glob("*.cleverGirl"):
                     print(line)
                     fileCandidateInfo[3] = line
                     print("candidate EMAIL - " + fileCandidateInfo[3])
-        break
+        
 os.chdir("/home/rjrivera/mail/")
 with open('myTestDB.csv', 'rb') as csvfile:
     spamreader = csv.reader(csvfile, delimiter= ',', quotechar='"')
