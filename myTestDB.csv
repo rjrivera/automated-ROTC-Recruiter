@@ -16,3 +16,20 @@ NULL,NULL,NULL,NULL
 ","College: HARVARD UNIVERSITY
 ","Email Address: maikem123@gmail.com
 "
+"Last Name:     Morrison
+","First Name:    Maike
+","College: HARVARD UNIVERSITY
+","Email Address: maikem123@gmail.com
+"
+"Last Name:     Morrison
+","First Name:    Maike
+",HARVARD UNIVERSITY,"Email Address: maikem123@gmail.com
+"
+0,,,
+0,Maike,Morrison,maikem123@gmail.com
+Morrison,Maike,HARVARD UNIVERSITY,maikem123@gmail.com
+Morrison,Maike,HARVARD UNIVERSITY,maikem123@gmail.com
+Morrison,Maike,HARVARD UNIVERSITY,maikem123@gmail.com
+docto=0A=,harby=0A=,MASSACHUSETTS INSTITUTE OF TECHNOLOGY=0A=,fake@email.com=0A=
+docto=0A=,harby=0A=,MASSACHUSETTS INSTITUTE OF TECHNOLOGY=0A=,fake@email.com=0A=
+docto,harby,MASSACHUSETTS INSTITUTE OF TECHNOLOGY,fake@email.com

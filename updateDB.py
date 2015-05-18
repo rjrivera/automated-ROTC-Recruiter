@@ -16,7 +16,6 @@ for file in glob.glob("*.cleverGirl"):
         print("I think this file might be the one")
         print(myFile)
         print("reading file again, line by line")
-        fileCurrentLine = "BANANA"
         with open(fpath) as fp:
             for line in fp:
                 print("currently at this line: " + line)
@@ -25,6 +24,7 @@ for file in glob.glob("*.cleverGirl"):
                     line = line[8:sizeOfLine]
                     print(line)
                     line = line.strip()
+                    line = line[0:len(line)-4]
                     print(line)
                     fileCandidateInfo[2] = line
                     print("candidate wants - " + line)
@@ -34,6 +34,7 @@ for file in glob.glob("*.cleverGirl"):
                     line = line[10:sizeOfLine]
                     print(line)
                     line = line.strip()
+                    line = line[0:len(line)-4]
                     print(line)
                     fileCandidateInfo[0] = line 
                     print("candidate last name - " + fileCandidateInfo[0])
@@ -42,6 +43,7 @@ for file in glob.glob("*.cleverGirl"):
                     line = line[11:sizeOfLine]
                     print(line)
                     line = line.strip()
+                    line = line[0:len(line)-4]
                     fileCandidateInfo[1] = line
                     print("candidate first name - " + fileCandidateInfo[1])
                 if 'Email Address:' in line:
@@ -49,6 +51,7 @@ for file in glob.glob("*.cleverGirl"):
                     line = line[14:sizeOfLine]
                     print(line)
                     line = line.strip()
+                    line = line[0:len(line)-4]
                     print(line)
                     fileCandidateInfo[3] = line
                     print("candidate EMAIL - " + fileCandidateInfo[3])
