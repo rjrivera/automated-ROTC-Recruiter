@@ -1,6 +1,7 @@
 import subprocess
+import sys
 
-cmdSSMTP = "ssmtp rjrivera@mit.edu < initialContact.txt"
+cmdSSMTP = "mutt -s \"AFROTC Lead Update\" -a myTestDB.csv -- afrotc.det365@gmail.com < reportMail.txt"
 
 p = subprocess.Popen(cmdSSMTP, shell = True, stderr=subprocess.PIPE)
 

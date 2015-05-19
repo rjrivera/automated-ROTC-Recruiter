@@ -24,7 +24,8 @@ for file in glob.glob("*."+serverDomain):
                     line = line[10:sizeOfLine]
                     print(line)
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     print(line)
                     fileCandidateInfo[0] = line 
                     print("candidate last name - " + fileCandidateInfo[0])
@@ -33,14 +34,16 @@ for file in glob.glob("*."+serverDomain):
                     line = line[11:sizeOfLine]
                     print(line)
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[1] = line
                     print("candidate first name - " + fileCandidateInfo[1])
                 if 'College:' in line:
                     line = line[8:len(line)]
                     print(line)
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4] 
                     print(line)
                     fileCandidateInfo[2] = line
                     print("candidate wants - " + line)
@@ -55,53 +58,61 @@ for file in glob.glob("*."+serverDomain):
                 if 'Mailing Address:' in line:
                     line = line[16:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:    
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[4] = line
                     print("candidate ADDRESS - " + fileCandidateInfo[4])
                 if 'City:' in line:
                     line = line[5:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[5] = line
                     print("candidate CITY - " + fileCandidateInfo[5])
                 if 'State' in line:
                     line = line[5:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[6] = line
                     print("candidate STATE - " + fileCandidateInfo[6])
         
                 if 'ZIP:' in line:
                     line = line[4:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[7] = line
                     print("candidate ZIP - " + fileCandidateInfo[7])
 
                 if 'Phone:' in line: 
                     line = line[6:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[8] = line
                     print("candidate PHONE - " + fileCandidateInfo[8])
                 if 'SAT Score:' in line:
                     line = line[10:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[9] = line
                     print("candidate SAT Score - " + fileCandidateInfo[9])
     
                 if 'ACT Score:' in line:
                     line = line[10:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[10] = line
                     print("candidate ACT Score - " + fileCandidateInfo[10])
   
                 if 'GPA Score:' in line:
                     line = line[10:len(line)]
                     line = line.strip()
-                    line = line[0:len(line)-4]
+                    if '=0A=' in line:
+                        line = line[0:len(line)-4]
                     fileCandidateInfo[11] = line
                     print("candidate GPA - " + fileCandidateInfo[11])
         
