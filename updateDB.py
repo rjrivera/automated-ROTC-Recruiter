@@ -115,15 +115,14 @@ for file in glob.glob("*."+serverDomain):
                         line = line[0:len(line)-4]
                     fileCandidateInfo[11] = line
                     print("candidate GPA - " + fileCandidateInfo[11])
+                    os.chdir("/home/rjrivera/mail/")
+                    with open('myTestDB.csv', 'rb') as csvfile:
+                        spamreader = csv.reader(csvfile, delimiter= ',', quotechar='"')
+
+                        for row in spamreader:
+                            print ','.join(row)
+
+                    with open('myTestDB.csv', 'a') as csvfile:
+                        spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
+                        spamwriter.writerow([fileCandidateInfo[0]] + [fileCandidateInfo[1]] + [fileCandidateInfo[2]] + [fileCandidateInfo[3]] + [fileCandidateInfo[4]] + [fileCandidateInfo[5]] + [fileCandidateInfo[6]] + [fileCandidateInfo[7]] + [fileCandidateInfo[8]] + [fileCandidateInfo[9]] + [fileCandidateInfo[10]] + [fileCandidateInfo[11]])
         
-os.chdir("/home/rjrivera/mail/")
-with open('myTestDB.csv', 'rb') as csvfile:
-    spamreader = csv.reader(csvfile, delimiter= ',', quotechar='"')
-
-    for row in spamreader:
-        print ','.join(row)
-    
-with open('myTestDB.csv', 'a') as csvfile:
-    spamwriter = csv.writer(csvfile, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
-
-    spamwriter.writerow([fileCandidateInfo[0]] + [fileCandidateInfo[1]] + [fileCandidateInfo[2]] + [fileCandidateInfo[3]] + [fileCandidateInfo[4]] + [fileCandidateInfo[5]] + [fileCandidateInfo[6]] + [fileCandidateInfo[7]] + [fileCandidateInfo[8]] + [fileCandidateInfo[9]] + [fileCandidateInfo[10]] + [fileCandidateInfo[11]])
