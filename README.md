@@ -13,3 +13,5 @@ Technical details for server design and implementation will follow shortly.
 Operational details and implementation details will follow after a site survey of other detachments.
 
 Projected to function at all AFROTC detachments nationwide, this system should save over 50k+ manhours annually. 
+
+Current test DB is a .csv. Will port to SQLite3 and generate .csv off database. 
