@@ -1,6 +1,10 @@
 import imaplib
 import email
 
+print('|---------------------------|\n')
+print('|----Custom email search----|\n')
+print('|---------------------------|\n')
+
 conn = imaplib.IMAP4_SSL("imap.gmail.com", 993)
 conn.login("drharby2010", "56235623")
 conn.select()
@@ -24,3 +28,4 @@ finally:
     except:
         pass
     conn.logout()
+print('[==================] OK')

@@ -43,7 +43,7 @@ for file in glob.glob('*.msg'):
             if 'From:' in line[:5] and pFrom and index < numCol:        
                 data[index] = line
                 index+=1
-            if 'To:' in line[:3] and pTo and not('-To:' in line) and index < numCol:
+            if 'To:' in line[:3] and pTo and index < numCol:
                 data[index] = line
                 index+=1
             if 'Subject:' in line[:8] and pSub and index < numCol:
