@@ -3,9 +3,9 @@ import csv, glob, os
 
 # updateDB.py reads outstanding emails, scans for AFROTC requests, and updates the live database, while clearing the directory afterwards.
 
-path = "/home/rjrivera/mail/new"
+path = "rjrivera/automated-ROTC-Recruiter"
 print "Current path directory %s" % path
-serverDomain = "cleverGirl"
+serverDomain = "VirtualBox"
 fileCandidateInfo = ["0","0","0","0","0","0", "0", "0","0","0","0","0","0"]
 
 os.chdir(path)
