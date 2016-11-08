@@ -1,0 +1,61 @@
+Delivered-To: drharby2010@gmail.com
+Received: by 10.107.134.85 with SMTP id i82csp1266734iod;
+        Mon, 7 Nov 2016 20:51:44 -0800 (PST)
+X-Received: by 10.28.96.4 with SMTP id u4mr13470658wmb.86.1478580704677;
+        Mon, 07 Nov 2016 20:51:44 -0800 (PST)
+Return-Path: <raptor.media.studios@gmail.com>
+Received: from mail-wm0-x242.google.com (mail-wm0-x242.google.com. [2a00:1450:400c:c09::242])
+        by mx.google.com with ESMTPS id u21si14339791wmu.72.2016.11.07.20.51.44
+        for <drharby2010@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 07 Nov 2016 20:51:44 -0800 (PST)
+Received-SPF: pass (google.com: domain of raptor.media.studios@gmail.com designates 2a00:1450:400c:c09::242 as permitted sender) client-ip=2a00:1450:400c:c09::242;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=pass (google.com: domain of raptor.media.studios@gmail.com designates 2a00:1450:400c:c09::242 as permitted sender) smtp.mailfrom=raptor.media.studios@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wm0-x242.google.com with SMTP id p190so20036266wmp.1
+        for <drharby2010@gmail.com>; Mon, 07 Nov 2016 20:51:44 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=UxQpFu6AIvWBLmxABGt/E2Mttjgm1OZVGOO7BDNBsWA=;
+        b=gngedHZAwX6ZMtyYlFCnI16qbr9BV4axCQUjUWGqVirVHEbcQsNCjA9yV65qcpA+TO
+         OcNas2MWmOK8l0zy/WBudZ2Bxxh3SV8M9Lhb35e687/teHpqghvxg8oV7hQPbhUFMwQH
+         bf2r9aE4vMRTY9ZuGp+DbGibjNEcjNzl3SsnNC5Mv/TW0Ngph1lwdFuc0/rsWLqISlaZ
+         0WGZq1jMsHmLxmzFYDN4YBnuTlPcwW4x5nVuirJOIgvACoZpc1IuyLbE5Lu6Gi6Ly5iE
+         WbK0N6icJSJQ8kPDsMAa7ALfIqV0OOaskn1BwebMj+IDIJ7inuxnxbrUFYUXJ85CQgN3
+         M7GQ==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=UxQpFu6AIvWBLmxABGt/E2Mttjgm1OZVGOO7BDNBsWA=;
+        b=J4zr0I1Y2vXAuvVr1C4HR1j/wCuYP8UcZZHEj2wSlzEdwGxWN3l3EvHtOldGUThfeD
+         KmjGGeLfErHzGlt7RHMHoKeowEFfYgv8Ac6XGQgHXjV2jc96LAk7MMXTonvAiOCeI7ns
+         dTgwdXeDgcs6+YQhKyzp517+fA662R84NAiMkHTREzyK7vbH/v8V63bxTH0hwkFSETlN
+         WQISYBUXQHFEHV3nxTrvaKr6zMeg+7LB7Tky2Ova12qEhPe5HD+7kn2/2QfMqVdH9iGG
+         Vw2IaoiaRaBOgHVz3WKVklvccO7dTD4rMms+IBuxCxXUD4a0pEVPzm6CrDjvdqxYBLf9
+         a+Dw==
+X-Gm-Message-State: ABUngvevyC3PHGsO4+GeOw3E808GILhhtLg23Ar1UAaCpOn47fgG8S/p0XTuL20BEbvaJsCNEQ3zRlWovCWEJw==
+X-Received: by 10.28.92.1 with SMTP id q1mr13372773wmb.62.1478580704063; Mon,
+ 07 Nov 2016 20:51:44 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.28.140.140 with HTTP; Mon, 7 Nov 2016 20:51:43 -0800 (PST)
+From: Rob Rivera <raptor.media.studios@gmail.com>
+Date: Mon, 7 Nov 2016 23:51:43 -0500
+Message-ID: <CA+BZr_CeJesSiH=bNzpPdy3Vbzu9RgkuN9HrDnj8zb9MwqdkQQ@mail.gmail.com>
+Subject: Home Depot
+To: drharby2010@gmail.com
+Content-Type: multipart/alternative; boundary=001a11469c60a335740540c2e5d7
+
+--001a11469c60a335740540c2e5d7
+Content-Type: text/plain; charset=UTF-8
+
+asdfjkasdfjkl
+
+--001a11469c60a335740540c2e5d7
+Content-Type: text/html; charset=UTF-8
+
+<div dir="ltr">asdfjkasdfjkl</div>
+
+--001a11469c60a335740540c2e5d7--

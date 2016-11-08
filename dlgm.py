@@ -2,7 +2,7 @@ import imaplib
 import email
 
 conn = imaplib.IMAP4_SSL("imap.gmail.com", 993)
-conn.login("raptor.media.studios", "xxxxxxxxxx")
+conn.login("drharby2010", "56235623")
 conn.select()
 #OR operator only accepts two parameters as per RFC definitions
 typ, data = conn.search(None,'(OR (Subject "Home Depot") (OR (Subject "Netflix") (Subject "1800flowers")))')

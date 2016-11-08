@@ -1,0 +1,68 @@
+Delivered-To: drharby2010@gmail.com
+Received: by 10.107.134.85 with SMTP id i82csp1266955iod;
+        Mon, 7 Nov 2016 20:52:40 -0800 (PST)
+X-Received: by 10.194.175.5 with SMTP id bw5mr9916977wjc.158.1478580760288;
+        Mon, 07 Nov 2016 20:52:40 -0800 (PST)
+Return-Path: <raptor.media.studios@gmail.com>
+Received: from mail-wm0-x243.google.com (mail-wm0-x243.google.com. [2a00:1450:400c:c09::243])
+        by mx.google.com with ESMTPS id lf4si10037775wjc.107.2016.11.07.20.52.40
+        for <drharby2010@gmail.com>
+        (version=TLS1_2 cipher=ECDHE-RSA-AES128-GCM-SHA256 bits=128/128);
+        Mon, 07 Nov 2016 20:52:40 -0800 (PST)
+Received-SPF: pass (google.com: domain of raptor.media.studios@gmail.com designates 2a00:1450:400c:c09::243 as permitted sender) client-ip=2a00:1450:400c:c09::243;
+Authentication-Results: mx.google.com;
+       dkim=pass header.i=@gmail.com;
+       spf=pass (google.com: domain of raptor.media.studios@gmail.com designates 2a00:1450:400c:c09::243 as permitted sender) smtp.mailfrom=raptor.media.studios@gmail.com;
+       dmarc=pass (p=NONE dis=NONE) header.from=gmail.com
+Received: by mail-wm0-x243.google.com with SMTP id p190so1309wmp.1
+        for <drharby2010@gmail.com>; Mon, 07 Nov 2016 20:52:40 -0800 (PST)
+DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=gmail.com; s=20120113;
+        h=mime-version:from:date:message-id:subject:to;
+        bh=l5rWrTfTF4xYi4wMoqIORYbaYJHSqTGhe3CrRNQqqw0=;
+        b=icnBa/MEO0vd2PiObTc0DBxcqQ/pVKonHGtogbkeM0if/TXFSHDD1NSC/dUx13+Bjk
+         vMIp1D5NGJz2hgE3zrJYftt6ns1X7SdXdOSYOiCJnYna6tvu1w+RMHdSVYj6l+eMy96p
+         C75WopAOx/RoSXjLFOBcJr3VXvQfxvCOvZsyIypc77dQpykNXMHE+S4JOL1fBa6GtAui
+         wtB7TSgZtjHMEnGPiaeeIdu7fBIyWqD84gsl4Yi21Tt1vdYOLvtVks61xquXpFIzi5eb
+         brAew2otAqc+aljxOgb87AjLM6HFatiPl/g6nBe/gBGNddKiazoToCnCnL/HN/ZZClr6
+         jfQg==
+X-Google-DKIM-Signature: v=1; a=rsa-sha256; c=relaxed/relaxed;
+        d=1e100.net; s=20130820;
+        h=x-gm-message-state:mime-version:from:date:message-id:subject:to;
+        bh=l5rWrTfTF4xYi4wMoqIORYbaYJHSqTGhe3CrRNQqqw0=;
+        b=hgkSSgWHce2BufbMo4B6bGUqUZtcvNN4C9BZXGPioxOtrXDTI/JS0GKemdY1L244of
+         jgY8hnvCQZVycyYdMpn9a+2CFPYNqZfCJLEzRculCRPWNlinyrqQluBWyPhCjRNtJH8C
+         yYbu+hIK8/axLI7ROQn3+zdUE7/h94vJPavA1lHkePa6R3zCJjeChbJxtI2zIEW8McK1
+         nMekI1wKZ1JSnWE/KmoawxYtk9AURu7d/GzqL2sayZ5V4nLb8V2TYpWroLx9d/ua4WZa
+         yGr7Yeuixnn1np/C6cb1yrc7AHXc6mPc1Nnyd6SjrAuuwAi4Muh0BigTIpdsamZCSOGR
+         XhWA==
+X-Gm-Message-State: ABUngvffgQJPmC47kltnTzUqfEE9Wft3lfTeIaODeavJ1E73qmOECVOVzJV4Q9icm5OtCltHOy4BkTKn5yn7mQ==
+X-Received: by 10.194.76.166 with SMTP id l6mr8463014wjw.85.1478580759710;
+ Mon, 07 Nov 2016 20:52:39 -0800 (PST)
+MIME-Version: 1.0
+Received: by 10.28.140.140 with HTTP; Mon, 7 Nov 2016 20:52:38 -0800 (PST)
+From: Rob Rivera <raptor.media.studios@gmail.com>
+Date: Mon, 7 Nov 2016 23:52:38 -0500
+Message-ID: <CA+BZr_Avekapuf+zi2cd=MdHuE4e1n2NDkgtW2GDsc9gRzY58w@mail.gmail.com>
+Subject: 1800flowers behold i have made a bouqet
+To: drharby2010@gmail.com
+Content-Type: multipart/alternative; boundary=047d7bfcffacf452280540c2e874
+
+--047d7bfcffacf452280540c2e874
+Content-Type: text/plain; charset=UTF-8
+
+****
+****
+****
+  |
+  |
+  |
+
+--047d7bfcffacf452280540c2e874
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr">****<div>****</div><div>****</div><div>=C2=A0 |</div><div>=
+=C2=A0 |</div><div>=C2=A0 |</div></div>
+
+--047d7bfcffacf452280540c2e874--
